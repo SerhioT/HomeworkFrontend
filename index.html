@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Homework_13_10</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <div class="testbox">
+      <form action="#">
+        <h1>Workplace Complaint Form</h1>
+        <div class="inform">
+          <p>Your name</p>
+          <input  type="text" name="fname" placeholder="First" />
+          <input  type="text" name="lname" placeholder="Last" />
+        </div>
+        <div class="inform">
+          <p>Your email</p>
+          <input type="email" name="email" />
+        </div>
+        <div class="inform">
+          <p>Date of complaint</p>
+          <input type="date" name="date" />
+        </div>
+        <div class="inform">
+          <p>Your departament</p>
+          <select name="departament">
+            <option value="">*Please select*</option>
+            <option value="">Departament A</option>
+            <option value="">Departament B</option>
+            <option value="">Departament C</option>
+            <option value="">Departament D</option>
+            <option value="">Departament E</option>
+          </select>
+        </div>
+        <div class="inform">
+          <p>Office manager name</p>
+          <input type="text" name="name"/>
+        </div>
+        <div class="complaint">
+          <p>The person(s) envolved in this complaint are</p>
+          <input class="compl" type="text" name="text" />
+        </div>
+        <div class="complaint">
+          <p>Note all relevant dates, places, events, etc. pertainig to the complaint</p>
+          <input class="compl" type="text" name="text"/>
+        </div>
+        <div class="complaint">
+          <p>Sugnature</p>
+          <input class="compl" type="text" name="text"/>
+        </div>
+        <div class="button">
+          <button type="submit">Send</button>
+        </div>
+      </form>
+    </div>
+  </body>
+</html>
